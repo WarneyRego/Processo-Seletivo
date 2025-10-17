@@ -1,0 +1,41 @@
+{
+  "name": "projeto-processo-seletivo",
+  "version": "1.0.0",
+  "description": "Projeto base usando HTML, CSS, JavaScript e Tailwind CSS",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=3000 --open=/index.html",
+    "dev": "npx live-server --port=3000 --open=/index.html --watch=.",
+    "build": "echo 'Build process would go here'",
+    "serve": "npx http-server . -p 3000 -o"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "tailwind",
+    "frontend",
+    "web",
+    "responsive"
+  ],
+  "author": "Warney Rego",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/projeto-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seu-usuario/projeto-base/issues"
+  },
+  "homepage": "https://github.com/seu-usuario/projeto-base#readme"
+}
